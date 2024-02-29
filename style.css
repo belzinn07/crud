@@ -1,3 +1,37 @@
 body{
-    background-image:linear-gradient(45deg,rgb(40, 190, 40),black);
+    background-image:linear-gradient(45deg,rgb(0, 106, 255),black);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div{
+    background-color: rgb(0, 139, 146);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:15px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    padding:15px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+button{
+    background-color:rgb(0, 106, 255);
+    width: 100%;
+    padding: 5px; 
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+
+}
+
+button:hover{
+    background-color: rgb(0, 187, 255);
 }
