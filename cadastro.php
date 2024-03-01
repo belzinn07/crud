@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cad.css">
     <title>Formulário</title>
 </head>
 <body>
@@ -11,11 +12,7 @@
             <fieldset>
                 <legend>Formulário de clientes</legend>
                 <br>
-                <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="inputUser" required>
-                    <label for="nome"class="labelInput">Nome completo</label>
-                </div>
-                <br><br>
+            
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome" class="inputUser" required>
                     <label for="nome"class="labelInput">Nome completo</label>
@@ -31,9 +28,9 @@
                     <label for="telefone"class="labelInput">Telefone</label>
                 </div>
                 <br><br>
-                
-                    <input type="text" name="data_nascimento" id="data_nascimento" class="inputUser" required>
                     <label for="data_nascimento"class="labelInput">Data de Nascimento</label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>
+                   
                 <br><br>
                 <div class="inputBox">
                     <input type="text" name="cidade" id="cidade" class="inputUser" required>

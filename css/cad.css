@@ -1,0 +1,21 @@
+body{
+    background-image:linear-gradient(45deg,rgb(0, 106, 255),black);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.box{
+    position: absolute;/*encaixa a div na posição */
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+}
+
+input{
+    padding:10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
