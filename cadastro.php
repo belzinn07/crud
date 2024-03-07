@@ -51,6 +51,8 @@
                     <input type="password" name="senha" id="senha" class="inputUser" required>
                     <label for="senha"class="labelInput">Senha</label>
                 </div>
+
+                <input type="submit" name="submit" id="submit" >
                 <br><br>
 
 
