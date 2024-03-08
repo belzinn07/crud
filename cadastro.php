@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="box">
-        <form action="">
+        <form action="" method='POST'><!--POST =envia os dados do formulario-->
             <fieldset>
                 <legend>Formulário de clientes</legend>
                 <br>
