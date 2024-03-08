@@ -10,6 +10,6 @@ $estado= $_POST['estado'] ;
 $endereco= $_POST['endereco'] ;
 $senha= $_POST['senha'] ;
 
-$resultado = mysql_query($conexao,"INSERT INTO login(nome,email,telefone,data_de_nasc)")/*insere na tabela login*/
+$resultado = mysqli_query($conexao,"INSERT INTO login"("nome,email,telefone,data_de_nascimento,cidade,estado,endereco,senha) VALUES($nome,$email,$telefone,$data,$cidade,$estado,$endereco,$senha)")/*insere na tabela login*/
 
 ?>
